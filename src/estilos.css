@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(141, 134, 201);
+}
+.bemvindo{
+    position: absolute;
+    width: 1100px;
+    height: 84px;
+    left: 231px;
+    top: 120px;
+    font-size: 64px;
+    background-color: #9067C6;
+    color: white;
+    border-radius: 24px;
+    text-align: center;
+}
+.posicao{
+    position:absolute;
+    width: 1520px;
+    height: 350px;
+    left: 0px;
+    top: -55px;
+    background: #242038;
+    border-radius: 38px;
+    z-index: -1;
+}
