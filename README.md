@@ -4,6 +4,12 @@
   <p>:file_folder: <strong>scr</strong> - contém o html e o css das páginas em pastas diferentes</p>
   <p>|-:file_folder: <strong>template</strong> - contém os códigos de html</p>
   <p>|-:file_folder: <strong>static</strong> - contém os códigos css das páginas</p>
+ <h2>:computer:Tecnologias utilizadas no projeto</h2>
+  <p>
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/>
+    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+  </p>
 <h2>:book:Páginas</h2>
 <h3>:page_with_curl:Página principal</h3>
   Na página principal, há uma foto de perfil minha, meu nome, uma lista breve sobre os assuntos de cada página e, por fim, botôes que levam a essas páginas.
