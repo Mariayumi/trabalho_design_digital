@@ -23,4 +23,4 @@ Curso: Desenvolvimento de Software Multiplataforma
   Nesta página há uma descrição de um trabalho que eu fiz para o jornal da escola e uma descrição dos trabalhos que eu pretendo fazer no futuro.
 <h3>:page_with_curl:Contatos</h3>
   Por fim, a página de contatos possui o meu e-mail, instagram e GitHub
-  <h2>:tv:Link para o vídeo explicativo</h2>
+  <h2>:tv:Link para o vídeo explicativo <a href="https://youtu.be/XW4YclHmEhM">aqui!</a></h2>
