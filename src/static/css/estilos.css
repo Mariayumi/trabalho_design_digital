@@ -27,7 +27,7 @@ p{
     font-size: 36px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-h1, ul{
+h1, ul, h2{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .baixo{
@@ -45,4 +45,11 @@ h1, ul{
     left: 450px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
+.logo{
+    position: absolute;
+    top: 15px;
+    left: 655px;
+    border-radius: 25px;
+    width: 150px;
+    height: 150px;
+}
