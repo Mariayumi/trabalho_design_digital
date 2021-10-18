@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/paginit.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/estilos.css')}}">
+</head>
+<body>
+    <header>
+        <img src="../static/images/logoo.jpg" alt="logo" class="logo">
+        <a class="bv">BEM-VINDO AO MEU PORTFÓLIO!</a>
+    </header>
+
+    <main>
+        <div class="sobremim">
+            <h1>Sobre mim:</h1>
+            <ul class="lista">
+                <li>Quem sou</li>
+                <li>Hobbies</li>
+                <li>Interesses</li>
+            </ul>
+            <a href="/sobremim">
+                <button class="btn btn1">ACESSAR!</button>
+            </a>
+        </div>
+        <div class="realizaçoes">
+            <h1>Realizações:</h1>
+            <ul class="lista">
+                <li>Acadêmicos</li>
+                <li>Projetos</li>
+            </ul>
+            <a href="/curriculo">
+                <button class="btn btn2">ACESSAR!</button>
+            </a>
+        </div> 
+        <div class="interesses">
+            <h1>Contatos:</h1>
+            <ul class="lista">
+                <li>E-mail</li>
+                <li>GitHub</li>
+                <li>Instagram</li>
+            </ul>
+            <a href="/contatos">
+                <button class="btn btn3">ACESSAR!</button>
+            </a>
+        </div>
+    </main>
+
+    <footer>
+    </footer>
+</body>
+</html>

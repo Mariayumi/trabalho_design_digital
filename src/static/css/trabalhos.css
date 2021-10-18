@@ -1,0 +1,69 @@
+.tr{
+    position: center;
+    padding: 20px;
+    background-color: #242038;
+    font-size: 40px;
+    border-radius: 24px;
+    color: white;
+    text-align: center;
+}
+.tf{
+    position: center;
+    padding: 20px;
+    background-color: #242038;
+    font-size: 40px;
+    border-radius: 24px;
+    color: white; 
+    text-align: center;
+}
+
+p, h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.acad{
+    position: relative;
+    background-color: #F7ECE1;
+    width: 500px;
+    padding: 20px;
+    border-radius: 20px;
+    z-index: -1;
+
+    top: 100px;
+    margin:auto
+}
+
+.proj{
+    position: relative;
+    background-color: #F7ECE1;
+    width: 500px;
+    padding: 20px;
+    border-radius: 20px;
+    z-index: -1;
+    top: 200px;
+    margin: auto;
+}
+
+main{
+    height: 1550px;
+}
+
+@media screen and (max-width: 500px){
+    .acad{
+        width: 300px;
+    }
+    .proj{
+        width: 300px;
+    }
+    p{
+        font-size: 25px;
+    }
+    .tr{
+        font-size: 30px;
+    }
+    .tf{
+        font-size: 30px;
+    }
+}

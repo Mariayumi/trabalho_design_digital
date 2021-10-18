@@ -1,0 +1,90 @@
+div{
+    position: relative;
+    background-color: #F7ECE1;
+    width: 560px;
+    height: 150px;
+    padding-left: 15px;
+    border-radius: 20px;
+    left: 400px;
+    margin: auto;
+    display: block;
+}
+
+li{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+}
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+}
+
+.lista{
+    position: relative;
+    top: -15px;
+}
+
+.btn{
+    position: relative;
+    background-color: #9067C6;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: auto;
+    left: 380px;
+}
+
+.btn1{
+    top: -115px;
+}
+
+.btn2{
+    top: -85px;
+}
+
+.btn3{
+    top: -115px;
+}
+
+main{
+    padding-bottom: 25px;
+}
+
+@media screen and (max-width: 500px){
+    div{
+        position: relative;
+        width: 80%;
+        height: 100px;
+        left: 0px;
+    }
+    li{
+        font-size: 18px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .btn{
+        left: 140px;
+        font-size: 20px;
+        width: 120px;
+    }
+    .btn1{
+        top: -90px;
+    }
+    .btn2{
+        top: -70px;
+    }
+    .btn3{
+        top: -90px;
+    }
+    main{
+        position: relative;
+    }
+}

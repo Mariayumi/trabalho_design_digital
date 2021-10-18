@@ -1,55 +1,55 @@
 body{
-    background-color: rgb(141, 134, 201);
+    background-color: #8D86C9;
 }
-.bemvindo{
-    position: absolute;
-    width: 1100px;
-    height: 84px;
-    left: 231px;
-    top: 140px;
-    font-size: 64px;
-    background-color: #9067C6;
-    color: white;
-    border-radius: 24px;
-    text-align: center;
-}
-.posicao{
-    position:absolute;
-    width: 1520px;
-    height: 350px;
-    left: 0px;
-    top: -35px;
-    background: #242038;
-    border-radius: 38px;
-    z-index: -1;
-}
-p{
-    font-size: 36px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-h1, ul, h2{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.baixo{
-    position: absolute;
-    left: 0px;
-    width: 1520px;
-    height: 300px;
+
+header{
+    height: 250px;
+    margin: auto;
     background-color: #242038;
-    z-index: -1;
+    border-radius: 20px;
 }
-.links{
-    position: absolute;
-    color: #9067C6;
-    font-size: 30px;
-    left: 450px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+.bv{
+    position: relative;
+    top: 25px;
+    background-color: #9067C6;
+    padding: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
+
 .logo{
-    position: absolute;
+    position: relative;
+    display: block;
+    width: 140px;
+    border-radius: 10px;
+    margin: auto;
     top: 15px;
-    left: 655px;
-    border-radius: 25px;
-    width: 150px;
-    height: 150px;
+}
+
+footer{
+    height: 200px;
+    margin: auto;
+    background-color: #242038;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 500px){
+    header{
+        height: 180px;
+    }
+    .bv{
+        font-size: 20px;
+        top: 20px;
+    }
+    .logo{
+        position:relative;
+        width: 100px;
+        top: 10px;
+    }
 }
