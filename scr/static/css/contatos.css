@@ -24,9 +24,9 @@
     height: 300px;
     padding: 20px;
     top: 50px;
-    left: 450px;
     border-radius: 20px;
     background-color: #F7ECE1;
+    margin: auto;
 }
 
 main{

@@ -6,13 +6,12 @@ p{
     position: relative;
     max-width: 1210px;
     min-width: 90%;
-    top: -80px;
     line-height: 42px;
     background-color: #F7ECE1;
     border-radius: 30px;
     padding: 20px;
     padding-top: 60px;
-    padding-right: 30px;
+    padding-right: 45px;
     z-index: -1;
     margin: auto;
 }
@@ -21,27 +20,31 @@ p{
     padding: 20px;
     max-width: 655px;
     min-width: 60%;
-    left: 42px;
+    top: 30px;
+    left: -260px;
     color: #F7ECE1;
     background-color: #242038;
     text-align: left;
     border-radius: 24px;
+    margin: auto;
 }
 .hob{
     position: relative;
     padding: 20px;
     width: 655px;
-    left: 740px;
+    top: 40px;
+    left: 380px;
     color: #F7ECE1;
     background-color: #242038;
     text-align: right;
     border-radius: 24px;
+    margin: auto;
 }
 .int{
     position: relative;
     max-width: 1210px;
     min-width: 90%;
-    top: -80px;
+    top: 10px;
     line-height: 42px;
     text-align: right;
     background-color: #F7ECE1;
@@ -56,7 +59,7 @@ p{
     position: relative;
     width: 655px;
     padding: 20px;
-    left: 42px;
+    left: 20px;
     top: -50px;
     color: #F7ECE1;
     background-color: #242038;
@@ -65,7 +68,7 @@ p{
 }
 .bloco6{
     position: relative;
-    max-width: 1230px;
+    max-width: 1420px;
     min-width: 90%;
     height: 400px;
     left: 0px;
@@ -131,7 +134,9 @@ ul, h1, h2, p{
 }
 
 .inte{
+    position: relative;
     height: 500px;
+    top: 90px;
 }
 
 @media screen and (max-width: 500px){
