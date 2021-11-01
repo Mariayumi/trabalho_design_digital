@@ -20,20 +20,19 @@ p{
     padding: 20px;
     max-width: 655px;
     min-width: 60%;
-    top: 30px;
-    left: -260px;
+    top: 50px;
+    left: 20px;
     color: #F7ECE1;
     background-color: #242038;
     text-align: left;
     border-radius: 24px;
-    margin: auto;
 }
 .hob{
     position: relative;
     padding: 20px;
     width: 655px;
     top: 40px;
-    left: 380px;
+    left: 360px;
     color: #F7ECE1;
     background-color: #242038;
     text-align: right;
@@ -59,7 +58,7 @@ p{
     position: relative;
     width: 655px;
     padding: 20px;
-    left: 20px;
+    left: -30px;
     top: -50px;
     color: #F7ECE1;
     background-color: #242038;
@@ -137,6 +136,8 @@ ul, h1, h2, p{
     position: relative;
     height: 500px;
     top: 90px;
+    left: 40px;
+    width: 1380px;
 }
 
 @media screen and (max-width: 500px){
@@ -147,21 +148,21 @@ ul, h1, h2, p{
         position: relative;
         text-align: center;
         width: 97%;
-        height: 280px;
+        height: 240px;
         top: 5px;
         left: 0px;
         padding: 5px;
-        padding-top: 15px;
+        padding-top: 40px;
     }
     .int{
         position: relative;
         text-align: center;
         width: 98%;
-        height: 280px;
+        height: 240px;
         top: 5px;
         left: 0px;
         padding: 5px;
-        padding-top: 15px;
+        padding-top: 40px;
     }
     .qse{
         position: relative;
@@ -169,30 +170,30 @@ ul, h1, h2, p{
         padding: 10px;
         text-align: center;
         top: 40px;
-        left: 70px;
+        left: 80px;
     }
     .hob{
         position: relative;
         width: 200px;
         padding: 10px;
         text-align: center;
-        top: 50px;
-        left: 70px;
+        top: 30px;
+        left: 5px;
     }
     .musica{
         position: relative;
         left: 0px;
-        top: 80px;
+        top: 20px;
     }
     .jogos{
         position: relative;
         left: 0px;
-        top: 120px;
+        top: 80px;
     }
     .sl{
         position: relative;
         left: 0px;
-        top: 200px;
+        top: 150px;
     }
     .bloco6{
         position: relative;
@@ -206,8 +207,8 @@ ul, h1, h2, p{
         width: 200px;
         padding: 10px;
         text-align: center;
-        left: 70px;
-        top: 40px;
+        left: 130px;
+        top: -20px;
     }
     .mus{
         position: relative;
@@ -216,15 +217,19 @@ ul, h1, h2, p{
     }
     .jg{
         position: relative;
-        top: -270px;
+        top: -320px;
         left: 20px;
     }
     .seli{
         position: relative;
-        top: -140px;
+        top: -200px;
         left: 20px;
     }
     .inte{
+        position: relative;
         height: 800px;
+        top: 45px;
+        width: 100%;
+        left: 0px;
     }
 }

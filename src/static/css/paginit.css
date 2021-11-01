@@ -3,11 +3,15 @@ div{
     background-color: #F7ECE1;
     width: 560px;
     height: 150px;
+    right: 60px;
     padding-left: 15px;
     border-radius: 20px;
-    left: 400px;
     margin: auto;
     display: block;
+}
+
+aside{
+    float: right;
 }
 
 li{
@@ -57,6 +61,29 @@ main{
     padding-bottom: 25px;
 }
 
+.foto{
+    position: relative;
+    width: 450px;
+    height: 500px;
+    border-radius: 30px;
+    filter: saturate(80%);
+    left: 60px;
+    margin-top: 20px;
+}
+
+.nome{
+    position:relative;
+    text-align: center;
+    background-color: #9067C6;
+    color: #F7ECE1;
+    padding: 10px;
+    width: 360px;
+    border-radius: 20px;
+    left: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+}
+
 @media screen and (max-width: 500px){
     div{
         position: relative;
@@ -71,7 +98,7 @@ main{
         font-size: 20px;
     }
     .btn{
-        left: 140px;
+        left: 220px;
         font-size: 20px;
         width: 120px;
     }
