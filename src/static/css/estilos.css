@@ -1,12 +1,15 @@
-body{
+html, body{
+    margin: 0;
     background-color: #8D86C9;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header{
-    height: 250px;
-    margin: auto;
+    height: fit-content;
+    padding-bottom: 50px;
     background-color: #242038;
-    border-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 .bv{
@@ -34,14 +37,50 @@ header{
 
 footer{
     height: 200px;
+    padding-bottom: 10px;
     margin: auto;
     background-color: #242038;
-    border-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    z-index: -1;
+    text-align: center;
+}
+
+footer > .rotas{
+    position: relative;
+    top: 50px;
+    color: #9067C6;
+    font-size: 30px;
+    justify-content: space-between;
+}
+
+footer > a{
+    position: relative;
+    top: 80px;
+    color: #F7ECE1;
+    margin-right: 30px;
+    font-size: 40px;
+    justify-content: space-between;
+}
+
+footer > a:hover{
+    color:#caa1ff;
+}
+
+footer >.rotas:hover{
+    background-color: #caa1ff;
+    color: #2e245c;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+p{
+    font-size: 25px;
 }
 
 @media screen and (max-width: 500px){
     header{
-        height: 180px;
+        height: 140px;
     }
     .bv{
         font-size: 20px;
@@ -51,5 +90,17 @@ footer{
         position:relative;
         width: 100px;
         top: 10px;
+    }
+    footer{
+        height: 180px;
+    }
+
+    footer > .rotas{
+        font-size: 20px;
+        margin-right: 5px;
+    }
+    
+    footer > a{
+        font-size: 35px;
     }
 }

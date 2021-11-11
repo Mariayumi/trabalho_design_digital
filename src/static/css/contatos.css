@@ -1,55 +1,53 @@
 .cont{
     position: relative;
-    padding: 16px;
+    width: 200px;
+    padding: 10px;
     background-color: #242038;
     color: white;
     text-align: center;
-    border-radius: 24px;
-    font-size: 36px;
+    border-radius: 14px;
+    font-size: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: block;
     margin: auto;
 }
 .info{
+    list-style: none;
+    line-height: 42px;
     position: relative;
-    width: 600px;
+    width: 360px;
     color: #9067C6;
-    font-size: 36px;
+    font-size: 25px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .contatos{
     position: relative;
-    width: 550px;
-    height: 300px;
-    padding: 20px;
-    top: 50px;
+    max-width: 30%;
+    min-width: fit-content;
+    height: fit-content;
+    padding: 5px;
     border-radius: 20px;
     background-color: #F7ECE1;
     margin: auto;
-}
-
-main{
-    height: 450px;
+    margin-bottom: 60px;
+    margin-top: 40px;
+    box-shadow: #6F66B5 20px 20px 2px;
 }
 
 @media screen and (max-width: 500px){
     .contatos{
-        position: center;
-        width: 87%;
-        left: 5px;
-        height: 200px;
+        max-width: 80%;
+        min-width: 150px;
+        left: -5px;
     }
     .info{
         position: relative;
         font-size: 20px;
-        left: -20px;
-        width: 300px;
+        left: -35px;
     }
     .cont{
         font-size: 25px;
     }
-    main{
-        height: 350px;
-    }
+
 }

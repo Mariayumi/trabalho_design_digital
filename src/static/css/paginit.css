@@ -1,32 +1,35 @@
-div{
-    position: relative;
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.sobremim, .realizaçoes, .interesses{
+    width: 300px;
+    height: fit-content;
     background-color: #F7ECE1;
-    width: 560px;
-    height: 150px;
-    right: 60px;
-    padding-left: 15px;
+    box-shadow: #6F66B5 20px 20px 2px;
     border-radius: 20px;
-    margin: auto;
-    display: block;
+    text-align: center;
+    padding: 8px;
+    margin: 30px;
+    margin-bottom: 10px;
 }
 
-aside{
-    float: right;
-}
-
-li{
+ul{
+    position:relative;
+    top: -20px;
+    left: -20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 25px;
+    font-size: 30px;
+    margin-bottom: 10px;
+    list-style: none;
 }
 
 h1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 35px;
-}
-
-.lista{
-    position: relative;
-    top: -15px;
+    text-align: center;
 }
 
 .btn{
@@ -42,76 +45,78 @@ h1{
     display: inline-block;
     font-size: 25px;
     margin: auto;
-    left: 380px;
 }
 
-.btn1{
-    top: -115px;
-}
-
-.btn2{
-    top: -85px;
-}
-
-.btn3{
-    top: -115px;
+.btn:hover{
+    background-color: #2e245c;
+    color: #ab7fe4;
 }
 
 main{
     padding-bottom: 25px;
 }
 
-.foto{
-    position: relative;
-    width: 450px;
-    height: 500px;
+.fotinha{
+    text-align: center;
+    max-width: 80%;
+    min-width: 300px;
+    height: 380px;
     border-radius: 30px;
     filter: saturate(80%);
-    left: 60px;
     margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .nome{
-    position:relative;
-    text-align: center;
+    margin-top: 10px;
     background-color: #9067C6;
     color: #F7ECE1;
     padding: 10px;
     width: 360px;
-    border-radius: 20px;
-    left: 80px;
+    border-radius: 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 35px;
+    font-size: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: #6F66B5 20px 20px 2px;
 }
 
+
+
 @media screen and (max-width: 500px){
-    div{
-        position: relative;
-        width: 80%;
-        height: 100px;
-        left: 0px;
-    }
     li{
-        font-size: 18px;
+        font-size: 25px;
     }
     h1{
-        font-size: 20px;
+        font-size: 30px;
     }
     .btn{
-        left: 220px;
         font-size: 20px;
         width: 120px;
     }
-    .btn1{
-        top: -90px;
+    .sobremim , .realizaçoes , .interesses{
+        width: 10%,
     }
-    .btn2{
-        top: -70px;
-    }
-    .btn3{
-        top: -90px;
-    }
-    main{
-        position: relative;
+    .nome{
+        width: 250px;
     }
 }
+
+@media screen and (min-width: 2000px) {
+    .container {
+        width: 1080px;
+        margin: 0 auto;
+      }
+
+      .sobremim , .realizaçoes , .interesses{
+        width: 15%,
+    }
+
+    @media screen and (min-width: 420px) {
+        .sobremim , .realizaçoes , .interesses{
+            height:fit-content;
+        }
+    }

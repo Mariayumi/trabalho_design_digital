@@ -1,235 +1,79 @@
-p{
-    font-size: 30px;
+.container{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 40vh 115vh;
+    text-align: center;
+    grid-row-gap: 20px;
+    grid-column-gap: 0px;
+    height: fit-content;
+    margin: 60px;
 }
 
-.ola{
-    position: relative;
-    max-width: 1210px;
-    min-width: 90%;
-    line-height: 42px;
+.container > div{
+    margin: 40px;
+    padding: 10px;
+    border-radius: 20px;
+    height: fit-content;
     background-color: #F7ECE1;
-    border-radius: 30px;
-    padding: 20px;
-    padding-top: 60px;
-    padding-right: 45px;
-    z-index: -1;
-    margin: auto;
-}
-.qse{
-    position: relative;
-    padding: 20px;
-    max-width: 655px;
-    min-width: 60%;
-    top: 50px;
-    left: 20px;
-    color: #F7ECE1;
-    background-color: #242038;
-    text-align: left;
-    border-radius: 24px;
-}
-.hob{
-    position: relative;
-    padding: 20px;
-    width: 655px;
-    top: 40px;
-    left: 360px;
-    color: #F7ECE1;
-    background-color: #242038;
-    text-align: right;
-    border-radius: 24px;
-    margin: auto;
-}
-.int{
-    position: relative;
-    max-width: 1210px;
-    min-width: 90%;
-    top: 10px;
-    line-height: 42px;
-    text-align: right;
-    background-color: #F7ECE1;
-    border-radius: 30px;
-    padding: 20px;
-    padding-top: 60px;
-    padding-left: 45px;
-    z-index: -1;
-    margin: auto;
-}
-.inter{
-    position: relative;
-    width: 655px;
-    padding: 20px;
-    left: -30px;
-    top: -50px;
-    color: #F7ECE1;
-    background-color: #242038;
-    text-align: left;
-    border-radius: 24px;
-}
-.bloco6{
-    position: relative;
-    max-width: 1420px;
-    min-width: 90%;
-    height: 400px;
-    left: 0px;
-    top: -840px;
-    background: #F7ECE1;
-    border-radius: 33px;
-    z-index: -1;
-    margin:auto;
+    box-shadow: #6F66B5 20px 20px 2px;
+    text-align: center;
 }
 
-.mus{
-    position: relative;
-    width: 131px;
-    left: 120px;
-    top: -530px;
-    background-color: #9067C6;
-    text-align: center;
-    border-radius: 26px;
-    padding: 5px;
-}
-.jg{
-    position: relative;
-    width: 131px;
-    left: 680px;
-    top: -600px;
-    background-color: #9067C6;
-    text-align: center;
-    border-radius: 26px;
-    padding: 5px;
-}
-.seli{
-    position: relative;
-    width: 214px;
-    left: 960px;
-    top: -670px;
-    background-color: #9067C6;
-    text-align: center;
-    border-radius: 26px;
-    padding: 5px;
+p, ul{
+    font-size: 25px;
+    list-style: none;
 }
 
-ul, h1, h2, p{
+ul{
+    position: relative;
+    left: -20px;
+}
+
+h1{
     font-size: 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #242038;
+    color: white;
+    padding: 10px;
+    width: 200px;
+    border-radius: 15px;
 }
 
-.musica{
-    position:relative;
-    left: 100px;
-    top: 60px;
+h2{
+    font-size: 25px;
+    background-color:#9067C6;
+    padding: 5px;
+    width: 150px;
+    border-radius: 10px;
 }
 
-.jogos{
-    position:relative;
-    left: 670px;
-    top: -100px;
+@media screen and (max-width: 1000px) {
+    .container{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 40vh;
+        min-width: 400px;
+        max-width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 100px;
+    }
+    .container > div{
+        margin-bottom: 100px;
+    }
 }
 
-.sl{
-    position:relative;
-    left: 940px;
-    top: -240px;
-}
-
-.inte{
-    position: relative;
-    height: 500px;
-    top: 90px;
-    left: 40px;
-    width: 1380px;
-}
-
-@media screen and (max-width: 500px){
-    ul, p , h2, h1{
-        font-size: 25px;
-    }
-    .ola{
-        position: relative;
-        text-align: center;
-        width: 97%;
-        height: 240px;
-        top: 5px;
-        left: 0px;
-        padding: 5px;
-        padding-top: 40px;
-    }
-    .int{
-        position: relative;
-        text-align: center;
-        width: 98%;
-        height: 240px;
-        top: 5px;
-        left: 0px;
-        padding: 5px;
-        padding-top: 40px;
-    }
-    .qse{
-        position: relative;
-        width: 200px;
-        padding: 10px;
-        text-align: center;
-        top: 40px;
-        left: 80px;
-    }
-    .hob{
-        position: relative;
-        width: 200px;
-        padding: 10px;
-        text-align: center;
-        top: 30px;
-        left: 5px;
-    }
-    .musica{
-        position: relative;
-        left: 0px;
-        top: 20px;
-    }
-    .jogos{
-        position: relative;
-        left: 0px;
-        top: 80px;
-    }
-    .sl{
-        position: relative;
-        left: 0px;
-        top: 150px;
-    }
-    .bloco6{
-        position: relative;
-        top: -670px;
-        left: 0px;
-        width: 100%;
-        height: 700px;
-    }
-    .inter{
-        position: relative;
-        width: 200px;
-        padding: 10px;
-        text-align: center;
-        left: 130px;
-        top: -20px;
-    }
-    .mus{
-        position: relative;
-        top: -450px;
-        left: 20px;
-    }
-    .jg{
-        position: relative;
-        top: -320px;
-        left: 20px;
-    }
-    .seli{
-        position: relative;
-        top: -200px;
-        left: 20px;
-    }
-    .inte{
-        position: relative;
-        height: 800px;
-        top: 45px;
-        width: 100%;
-        left: 0px;
+@media screen and (max-width: 420px) {
+    .container{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 40vh;
+        min-width: 360px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 100px;
     }
 }

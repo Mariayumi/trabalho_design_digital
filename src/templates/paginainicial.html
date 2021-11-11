@@ -8,51 +8,63 @@
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/paginit.css')}}">
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/estilos.css')}}">
 </head>
+<script src="https://kit.fontawesome.com/b01f879dd9.js" crossorigin="anonymous"></script>
+
 <body>
     <header>
         <img src="../static/images/logoo.jpg" alt="logo" class="logo">
         <a class="bv">BEM-VINDO AO MEU PORTFÓLIO!</a>
     </header>
 
-    <aside class="aside">
-        <div class="sobremim">
-            <h1>Sobre mim:</h1>
-            <ul class="lista">
-                <li>Quem sou</li>
-                <li>Hobbies</li>
-                <li>Interesses</li>
-            </ul>
-            <a href="/sobremim">
-                <button class="btn btn1">ACESSAR!</button>
-            </a>
+    <main>
+        <div class="foto">
+                <img class="fotinha" src="../static/images/foto_perfil.jpg">
+                <h1 class="nome">Mariana Ayumi Tamay</h1>
         </div>
-        <div class="realizaçoes">
-            <h1>Realizações:</h1>
-            <ul class="lista">
-                <li>Acadêmicos</li>
-                <li>Projetos</li>
-            </ul>
-            <a href="/curriculo">
-                <button class="btn btn2">ACESSAR!</button>
-            </a>
-        </div> 
-        <div class="interesses">
-            <h1>Contatos:</h1>
-            <ul class="lista">
-                <li>E-mail</li>
-                <li>GitHub</li>
-                <li>Instagram</li>
-            </ul>
-            <a href="/contatos">
-                <button class="btn btn3">ACESSAR!</button>
-            </a>
-        </div>
-    </aside>
 
-        <img src="../static/images/foto_perfil.jpg" class="foto">
-        <h1 class="nome">Mariana Ayumi Tamay</h1>
+        <div class="container">
+            <div class="sobremim">
+                <h1>Sobre mim:</h1>
+                <ul class="lista">
+                    <li>Quem sou</li>
+                    <li>Hobbies</li>
+                    <li>Interesses</li>
+                </ul>
+                <a href="/sobremim">
+                    <button class="btn btn1">ACESSAR!</button>
+                </a>
+            </div>
+
+            <div class="realizaçoes">
+                <h1>Currículo:</h1>
+                <ul class="lista">
+                    <li>Acadêmicos</li>
+                    <li>Projetos</li>
+                    <li>Experiências</li>
+                    <li>Trabalho voluntário</li>
+                </ul>
+                <a href="/curriculo">
+                    <button class="btn btn2">ACESSAR!</button>
+                </a>
+            </div> 
+            
+            <div class="interesses">
+                <h1>Contatos:</h1>
+                <ul class="lista" id="menu">
+                    <li>E-mail</li>
+                    <li>GitHub</li>
+                    <li>Instagram</li>
+                </ul>
+                <a href="/contatos">
+                    <button class="btn btn3">ACESSAR!</button>
+                </a>
+            </div>
+        </div>
+    </main>
 
     <footer>
+        <a class="rotas" href="/index">HOME</a>  <a class="rotas" href="sobremim">Sobre mim</a>  <a class="rotas" href="curriculo">Currículo</a>  <a class="rotas" href="contatos">Contatos</a> <br>
+        <a href="https://www.youtube.com/channel/UCrwXiSJwG6D0_7lO4GiEt6Q/featured"><i class="fab fa-youtube"></i></a> <a href="https://www.instagram.com/yumii_yumee/" ><i class="fab fa-instagram"></i></a> <a href="https://github.com/"><i  class="fab fa-github"></i></a>
     </footer>
 </body>
 </html>
