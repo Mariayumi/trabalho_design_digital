@@ -23,8 +23,8 @@ Curso: Desenvolvimento de Software Multiplataforma
   Na página principal, há uma foto de perfil minha, meu nome, uma lista breve sobre os assuntos de cada página e, por fim, botôes que levam a essas páginas.
 <h3>:page_with_curl:Sobre mim</h3>
   Nesta página, há uma descrição sobre mim, meus hobbies e alguns interesses como, gosto musical, jogos e livros.
-<h3>:page_with_curl:Acadêmico e projetos</h3>
-  Nesta página há uma descrição de minhas graduações e projetos já realizados e em andamento.
+<h3>:page_with_curl:Currículo</h3>
+  Nesta página, listo minhas graduações, projetos realizados e em andamento, experiência no mercado de trabalho e trabalhos voluntários.
 <h3>:page_with_curl:Contatos</h3>
-  Por fim, a página de contatos possui o meu e-mail, instagram e GitHub
+  Por fim, a página de contatos possui o meu e-mail, instagram e GitHub.
   <h2>:tv:Link para o vídeo explicativo <a href="https://youtu.be/XW4YclHmEhM">aqui!</a></h2>
