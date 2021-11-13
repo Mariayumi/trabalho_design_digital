@@ -19,31 +19,34 @@
     text-align: center;
 }
 
-p, ul{
-    font-size: 25px;
-    list-style: none;
-}
-
 ul{
+    list-style: none;
     position: relative;
+    font-size: 25px;
     left: -20px;
 }
 
-h1{
+.qse, .inter, .hob{
     font-size: 30px;
-    background-color: #242038;
-    color: white;
+    background-color: #242038 !important;
+    color: white !important;
     padding: 10px;
-    width: 200px;
+    width: 210px;
     border-radius: 15px;
 }
 
 h2{
     font-size: 25px;
-    background-color:#9067C6;
-    padding: 5px;
-    width: 150px;
+    background-color:#9067C6 !important;
+    padding: 5px 10px 5px 10px;
+    width: fit-content;
     border-radius: 10px;
+}
+
+h1, h2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media screen and (max-width: 1000px) {
