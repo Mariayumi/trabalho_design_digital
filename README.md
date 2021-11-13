@@ -12,19 +12,20 @@ Curso: Desenvolvimento de Software Multiplataforma
   <p>|--:file_folder: <strong>images</strong> - contém as imagens das páginas</p>
  <h2>:computer:Tecnologias utilizadas no projeto</h2>
   <p>
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/>
     <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
     <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"/>
   </p>
 <h2>:book:Páginas</h2>
 <h3>:page_with_curl:Página principal</h3>
   Na página principal, há uma foto de perfil minha, meu nome, uma lista breve sobre os assuntos de cada página e, por fim, botôes que levam a essas páginas.
 <h3>:page_with_curl:Sobre mim</h3>
   Nesta página, há uma descrição sobre mim, meus hobbies e alguns interesses como, gosto musical, jogos e livros.
-<h3>:page_with_curl:Acadêmico e projetos</h3>
-  Nesta página há uma descrição de minhas graduações e projetos já realizados e em andamento.
+<h3>:page_with_curl:Currículo</h3>
+  Nesta página, listo minhas graduações, projetos realizados e em andamento, experiência no mercado de trabalho e trabalhos voluntários.
 <h3>:page_with_curl:Contatos</h3>
-  Por fim, a página de contatos possui o meu e-mail, instagram e GitHub
+  Por fim, a página de contatos possui o meu e-mail, instagram e GitHub.
   <h2>:tv:Link para o vídeo explicativo <a href="https://youtu.be/XW4YclHmEhM">aqui!</a></h2>
