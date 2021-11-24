@@ -29,3 +29,4 @@ Curso: Desenvolvimento de Software Multiplataforma
 <h3>:page_with_curl:Contatos</h3>
   Por fim, a página de contatos possui o meu e-mail, instagram e GitHub.
   <h2>:tv:Link para o vídeo explicativo <a href="https://youtu.be/HH7YbFWif0U">aqui!</a></h2>
+  <h2>:white_check_mark: Link para o projeto já aplicado no Heroku <a href="https://tamay-portfolio.herokuapp.com/">aqui!</a></h2>
