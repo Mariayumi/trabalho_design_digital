@@ -2,7 +2,7 @@
 Desenvolvedora: Mariana Ayumi Tamay |
 Matéria: Design Digital |
 Curso: Desenvolvimento de Software Multiplataforma
-<h2>:triangular_flag_on_post:Projeto em andamento...</h2>
+<h2>:heavy_check_mark: Projeto concluído!</h2>
 <h2>:bookmark_tabs: Organização das pastas</h2>
   <p>:file_folder: <strong>doc</strong> - contém o wireframe do projeto (desktop e mobile)</p>
   <p>:file_folder: <strong>src</strong> - contém o html e o css das páginas em pastas diferentes</p>
