@@ -2,7 +2,7 @@
 Desenvolvedora: Mariana Ayumi Tamay |
 Matéria: Design Digital |
 Curso: Desenvolvimento de Software Multiplataforma
-<h2>:triangular_flag_on_post:Projeto em andamento...</h2>
+<h2>:heavy_check_mark: Projeto concluído!</h2>
 <h2>:bookmark_tabs: Organização das pastas</h2>
   <p>:file_folder: <strong>doc</strong> - contém o wireframe do projeto (desktop e mobile)</p>
   <p>:file_folder: <strong>src</strong> - contém o html e o css das páginas em pastas diferentes</p>
@@ -18,6 +18,7 @@ Curso: Desenvolvimento de Software Multiplataforma
     <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
     <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"/>
     <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white"/>
   </p>
 <h2>:book:Páginas</h2>
 <h3>:page_with_curl:Página principal</h3>
@@ -28,4 +29,5 @@ Curso: Desenvolvimento de Software Multiplataforma
   Nesta página, listo minhas graduações, projetos realizados e em andamento, experiência no mercado de trabalho e trabalhos voluntários.
 <h3>:page_with_curl:Contatos</h3>
   Por fim, a página de contatos possui o meu e-mail, instagram e GitHub.
-  <h2>:tv:Link para o vídeo explicativo <a href="https://youtu.be/XW4YclHmEhM">aqui!</a></h2>
+  <h2>:tv:Link para o vídeo explicativo <a href="https://youtu.be/HH7YbFWif0U">aqui!</a></h2>
+  <h2>:white_check_mark: Link para o projeto já aplicado no Heroku <a href="https://tamay-portfolio.herokuapp.com/">aqui!</a></h2>
