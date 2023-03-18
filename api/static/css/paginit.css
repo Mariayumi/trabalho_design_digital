@@ -16,6 +16,11 @@
     margin-bottom: 10px;
 }
 
+.logo{
+    width: 20px;
+    height: 20px;
+}
+
 ul{
     position:relative;
     top: -5px;
