@@ -1,5 +1,4 @@
-from flask import Flask, render_template
-from jinja2 import Template
+from flask import Flask, app, render_template
 
 app = Flask(__name__)
 
