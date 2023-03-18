@@ -1,7 +1,7 @@
 from flask import Flask, render_template
 from jinja2 import Template
 
-app = Flask(__name__, template_folder="src/api/templates", static_folder="src/api/static")
+app = Flask(__name__)
 
 @app.route("/")
 @app.route("/index")
