@@ -19,13 +19,6 @@
     text-align: center;
 }
 
-ul{
-    list-style: none;
-    position: relative;
-    font-size: 25px;
-    left: -20px;
-}
-
 .qse, .inter, .hob{
     font-size: 30px;
     background-color: #242038 !important;
