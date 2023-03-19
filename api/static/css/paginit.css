@@ -4,6 +4,11 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+
+nav{
+    background-color: #ab7fe4 !important;
+}
+
 .sobremim, .realizaçoes, .interesses{
     width: 300px;
     height: fit-content;
@@ -17,11 +22,13 @@
 }
 
 .logo{
-    width: 20px;
-    height: 20px;
+    width: 55px;
+    height: 65px;
+    border-radius: 5px;
+    margin-left: 20px;
 }
 
-ul{
+.lista {
     position:relative;
     top: -5px;
     left: -20px;
